@@ -11,8 +11,6 @@ Fork this repo and send us a link to the repo with your results.
 
 ## Requirements
 
-- Use ReactJS 
-
  - Use Redux as state mangement tool
  - Use [jdenticon](https://github.com/dmester/jdenticon) to generate avatars (email as input)
  - Use Tailwind for styling
