@@ -15,6 +15,7 @@ Fork this repo and send us a link to the repo with your results.
  - Use [jdenticon](https://github.com/dmester/jdenticon) to generate avatars (email as input)
  - Use Tailwind for styling
  - will be a plus if you use https://miragejs.com  tools to create api-s and use them in application
+ - if you are not using mirageJS please use Redux Persist to store data in localstorage
  - Show us best practices you know 
 
 ## Anything else?
