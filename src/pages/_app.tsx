@@ -1,9 +1,15 @@
-import type { AppProps } from 'next/app';
+import type { AppProps } from "next/app";
+import store from "../../store";
 
-import '../styles/globals.css';
+import "../styles/globals.css";
+import { Provider } from "react-redux";
 
 const TestTaskApp = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />;
+  return (
+    <Provider store={store}>
+      <Component {...pageProps} />
+    </Provider>
+  );
 };
 
 export default TestTaskApp;
